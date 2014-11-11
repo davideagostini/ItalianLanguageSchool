@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="no_connection">Keine Internetverbindung</string>
+    
+    <string name="title1">Italienischkurse in Italien</string>
+    <string name="title2">Spezialkurse</string>
+    <string name="title3">Suche nach Art</string>
+    <string name="title4">Andere</string>
+    
+    <string name="a_list_1">Regionen</string>
+    <string name="b_list_1">Karte</string>
+    <string name="c_list_1">Suchmaschine</string>
+    <string name="a_list_2">Kockcurse</string>
+    <string name="b_list_2">Diktion kurse</string>
+    <string name="a_list_3">Extra kurse</string>
+    <string name="b_list_3">Merkmal"bin"e</string>
+    <string name="c_list_3">Akkreditierungen</string>
+    <string name="a_list_4">News</string>
+    <string name="b_list_4">Last minutes</string>
+    <string name="c_list_4">Credits</string>
+    
+    <string name="form_contact_name">Vorname</string>
+    <string name="form_contact_surname">Nachname</string>
+    <string name="form_contact_nationality">Nationalität</string>
+    <string name="form_contact_email">Email</string>
+    <string name="form_contact_request">Gesuch</string>
+    <string name="form_btn_send">Senden</string>
+    <string name="form_title">Kontakt</string>
+     
+    <string name="sd_lessons_label">1 Unterrichtsstunde:</string>
+    <string name="sd_max_students_label">Max Studentenzahl pro Kurs:</string>
+    <string name="sd_material_label">Lehrbücher und Materialien:</string>
+    <string name="sd_level_test_label">Einstufungstest:</string>
+    <string name="sd_registration_label">Einschreibegebühr:</string>
+    <string name="sd_accommodation_label">Servicedienst Unterkunft:</string>
+    <string name="sd_wifi_label">Wifi:</string>
+    <string name="school_description">Beschreibung</string>
+    
+    <string name="btn_showFormCerca">Zeige Form</string>
+    <string name="btn_cerca">Suche</string>   
+    <string name="m_region">Region</string>
+    <string name="search_criteria">Geben Sie Ihren Suchbegriff ein und finden Sie die Italienisch Sprachschule, die zu Ihnen passt</string>
+    <string name="nothing_school">Keine Schulen gefunden</string>
+    <string name="result_search_school">Schulen gefunden</string>
+    
+    <string name="btn_scuola">Über die Schule</string>
+    <string name="btn_send_mail">Kontakt</string>
+    
+    <string name="title_start">Italienisch in Italien lernen, wo sonst?</string>
+    <string name="desc_start">Der beste Weg die italienische Sprache zu erlernen ist in Italien zu studieren. In Italien hast du die Möglichkeit, die Sprache zu lernen und gleichzeitig die schönsten Plätze dieser Erde zu entdecken.\n\nItalien ist einfach einzigartig in seiner Vielfalt. So kannst du z.B. in einer kunstreichen Stadt, einer am Meer oder einer in den Bergen studieren. Wähle zwischen einer Groß-, oder Kleinstadt. Du kannst sogar Kurse in einer Stadt belegen, die von der Unesco zum Weltkulturerbe ausgezeichnet wurde.\n\nVom mittelalterlichen Dorf bis hin zu kulturellen und lebendigen Städten. Natürlich ist Italien nicht nur ein Land der Geschichte. Wir wünschen Euch erfolgreiches Lernen, schöne Ferien und einen tollen Aufenthalt in Italien.</string>
+    
+    <string name="send_all_fields">Bitte beachten Sie: Alle Felder sind erforderlich</string>
+    <string name="send_mail_valid">Ungültige E-Mail</string>
+    
+    <string name="send_ok">Antrag aufgenommen. Vielen Dank, Sie werden so bald wie möglich direkt von der Schule.</string>
+    <string name="send_no_ok">Es ist ein Fehler bei der Erfassung der Anforderung.</string>
+    
+
+</resources>

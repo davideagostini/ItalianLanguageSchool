@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <string name="no_connection">Sin conexión a Internet</string>
+    
+    <string name="title1">Escuelad de italiano en Italia</string>
+    <string name="title2">Cursos especiales</string>
+    <string name="title3">Búsqueda por tipo</string>
+    <string name="title4">Otro</string>
+    
+    <string name="a_list_1">Cursos de italiano en provincias</string>
+    <string name="b_list_1">Mapa de las escuelas</string>
+    <string name="c_list_1">Busca tu escuela</string>
+    <string name="a_list_2">Cursos de cocina</string>
+    <string name="b_list_2">Cursos de arte</string>
+    <string name="a_list_3">Cursos extra</string>
+    <string name="b_list_3">Característica</string>
+    <string name="c_list_3">Membership</string>
+    <string name="a_list_4">News</string>
+    <string name="b_list_4">Last minutes</string>
+    <string name="c_list_4">Créditos</string>
+    
+    <string name="form_contact_name">Nombre</string>
+    <string name="form_contact_surname">Apedillo</string>
+    <string name="form_contact_nationality">Nacionalidad</string>
+    <string name="form_contact_email">Email</string>
+    <string name="form_contact_request">Mensaje</string>
+    <string name="form_btn_send">Registrar</string>
+    <string name="form_title">Contacto</string>
+    
+    <string name="sd_lessons_label">1 lección:</string>
+    <string name="sd_max_students_label">Máximos estudiantes por clase:</string>
+    <string name="sd_material_label">Libros y/o material didáctico:</string>
+    <string name="sd_level_test_label">Prueba de nivel:</string>
+    <string name="sd_registration_label">Grabación/inscripcion:</string>
+    <string name="sd_accommodation_label">Servicio de estadia:</string>
+    <string name="sd_wifi_label">Wifi:</string>
+    <string name="school_description">Descripción</string>
+    
+    <string name="btn_scuola">Sobre la escuela</string>
+    <string name="btn_send_mail">Contacto</string>
+    
+    <string name="btn_showFormCerca">Mostrar formulario de búsqueda</string>
+    <string name="btn_cerca">Búsqueda</string>   
+    <string name="m_region">Región</string>
+    <string name="search_criteria">Introduzca las palabras clave y encontrar la escuela de lengua y cultura italiana que más le convenga</string>
+    <string name="nothing_school">No se han encontrado escuelas</string>
+    <string name="result_search_school">Escuelas encontradas</string>
+    
+    <string name="title_start">Aprender italiano en Italia, ¿en donde más?</string>
+    <string name="desc_start">El mejor modo de aprender italiano es estudiar en Italia. ¿en donde más? En Italia tienes la posibilidad de estudiar la lengua y de descubrir uno de los países más hermoso del mundo. Italia es única porque es diversa: puedes estudiar en una ciudad artística, o en una ciudad costera o en la montaña. Puedes escoger una ciudad grande o pequeña. Puedes escoger entre tomar cursos en ciudades declaradas patrimonios de la humanidad por Unesco, en ciudades medievales o en ciudades culturalmente vibrantes, ciudades de comida y colores, de perfumes y de panoramas sorprendentes.\n\nCon esta aplicación te invitamos a descubrir y a escoger las escuelas de idioma italiano presentes en nuestro territorio dandote la posibilidad de escoger aquellas que sean más útiles a tu modo de ser, de viajar y de estudiar. Puedes ir a Roma, a Florencia, a Milan o a la bellísima Sicilia, a la misteriosa Cerdeña, o a las otras regiones espléndidas de Italia.</string>
+    
+    
+    <string name="credits">myitalianlanguageschools.com es un portal web que presenta las escuelas de idioma y cultura italiana para extranjeros.\n\nLos textos de presentación y la información acerca de las escuelas publicadas en myitalianlanguageschools.com y en esta aplicación han sido provistas directamente por las escuelas. No nos hacemos responsables por información comunicada de manera falsa y\o incorrecta.\n\nAdemás no nos hacemos responsables por la calidad de los cursos que los usuarios tomen en las escuelas indicadas en myitalianlanguageschools.com y en esta aplicación.\n\nNo reservar cursos: las solicitudes son enviadas directamente a las escuelas; será su responsabilidad de responder a las preguntas de los interesados.\n\nEsta aplicación ha sido desarrollada por Davide Agostini y Francesco Grasso.</string>
+    
+    <string name="send_all_fields">Atenciòn: todos los renglones son obligatorios</string>
+    <string name="send_mail_valid">inválido Email</string>
+    
+    <string name="send_ok">Pedido registrado. Gracias, serà contactado por la escuela a la mayor brevedad.</string>
+    <string name="send_no_ok">Hubo un error en el registro de la solicitud.</string>
+
+</resources>

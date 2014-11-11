@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Italian Language Schools</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="nd_desc">desc</string>
+    <string name="nd_thumbnail_desc">desc thumbnail</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="verifica_connessione">Please check your connection and try again.</string>
+    <string name="image">image</string>
+    
+    <string name="title1">Italian languages schools</string>
+    <string name="title2">Special courses</string>
+    <string name="title3">Search by type</string>
+    <string name="title4">Miscellaneous</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
+    <string name="a_list_1">Schools in italian regions</string>
+    <string name="b_list_1">Map of schools</string>
+    <string name="c_list_1">Search</string>
+    <string name="a_list_2">Cooking courses</string>
+    <string name="b_list_2">Art courses</string>
+    <string name="a_list_3">Extra courses</string>
+    <string name="b_list_3">Features</string>
+    <string name="c_list_3">Membership</string>
+    <string name="a_list_4">News</string>
+    <string name="b_list_4">Last minutes</string>
+    <string name="c_list_4">Credits</string>
+    
+    <string name="form_contact_name">Name</string>
+    <string name="form_contact_surname">Surname</string>
+    <string name="form_contact_nationality">Nationality</string>
+    <string name="form_contact_email">Email</string>
+    <string name="form_contact_request">Request</string>
+    <string name="form_btn_send">Submit</string>
+    <string name="form_title">Contact</string>
+    
+     
+    <string name="sd_lessons_label">1 lesson:</string>
+    <string name="sd_max_students_label">Maximum students per class:</string>
+    <string name="sd_material_label">Books and/or didactic materials:</string>
+    <string name="sd_level_test_label">Level test:</string>
+    <string name="sd_registration_label">Registration fee:</string>
+    <string name="sd_accommodation_label">Accommodation service:</string>
+    <string name="sd_wifi_label">Wifi:</string>
+    <string name="school_description">Description</string>
+    
+    
+    <string name="sd_info">Informazioni</string>
+    
+    <string name="btn_scuola">About the school</string>
+    <string name="btn_send_mail">Contact</string>
+    
+    <string name="btn_showFormCerca">Show search form</string>
+    <string name="btn_cerca">Search</string>   
+    <string name="m_region">Region</string>
+    <string name="search_criteria">Enter your keywords and find the school of Italian language that suits you</string>
+    <string name="nothing_school">No schools found</string>
+    <string name="result_search_school">Schools found</string>
+    
+    <string name="title_start">Learn Italian in Italy, where else?</string>
+    <string name="desc_start">The best place to learn Italian is in Italy. Where else? In Italy you can study the language and discover one of the most beautiful place in the world. Italy is unique in its diversity: you can study in a city of high culture, a town by the sea or a village in the mountains. Also you can choose a big city or a small city. You can even decide to study in a designated Unesco World Heritage Site. You may choose a Medieval town or a vivacious city.\n\nYes, Italy is rich with history, but "Il Bel Paese" is today composed of a vast array of cultures and communities, foods and colors, aromas and breathtaking landscapes.\n\nWith this app we invite you to discover the Italian language schools we offer and to choose the one that best fits your lifestyle, your travel style, and your learning style. You can go to Rome, Florence, Milan, "bella Sicily", to mysterious Sardinia or the myriad of other unique regions of Italy.</string>
+    
+    
+    <string name="credits">myitalianlanguageschools.com is a web portal to information about Italian language and culture schools for foreigners in Italy.\n\nAll the information published on myitalianlanguageschools.com and in this app is supplied directly by the schools themselves. We are not liable for this information in the event that it is incorrect or false.\n\nFurthermore, we are not liable for the quality of the courses that you attend at the schools listed on myitalianlanguageschools.com and in this app.
+\n\nWe are not an agency and we don\'t book any courses: your request is sent directly to the schools; it is up to them to answer your request at their discretion.\n\nThis application has been developed by Davide Agostini and Francesco Grasso.</string>
+
+    <string name="send_all_fields">Please, all field are mandatory</string>
+    <string name="send_mail_valid">Invalid Email</string>
+    
+    <string name="send_ok">Your request has been successfully completed. The school will answer you directly!</string>
+    <string name="send_no_ok">There was an error in the registration of your request.</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="horizontal"
+    android:padding="10dip">
+
+    <RelativeLayout
+        android:id="@+id/news_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip" >
+
+        <ImageView
+            android:id="@+id/news_thumb_image"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:contentDescription="@string/nd_desc"
+            android:scaleType="fitCenter"
+            android:src="@drawable/thumbnail" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/news_url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/news_title"
+        style="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/news_thumbnail"
+        android:layout_toRightOf="@+id/news_thumbnail"
+        android:text="@string/news_title"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/titolo_scuola"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/news_title"
+        android:layout_below="@+id/news_title"
+        android:text="@string/school_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/news_desc"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/news_date"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/news_thumbnail"
+        android:text="@string/news_desc"
+        android:textColor="#343434" />
+
+    <TextView
+        android:id="@+id/news_date"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titolo_scuola"
+        android:layout_toRightOf="@+id/news_thumbnail"
+        android:text="@string/news_date"
+        android:textColor="@color/Gray" />
+
+</RelativeLayout>

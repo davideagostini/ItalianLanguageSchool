@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_1">
+        <item>a_list_1</item>
+        <item>b_list_1</item>
+        <item>c_list_1</item>
+    </string-array>
+
+    <array name="icon_list_1">
+        <item>ic_action_persons</item>
+        <item>ic_action_place</item>
+        <item>ic_action_search</item>
+    </array>
+
+    <string-array name="list_2">
+        <item>a_list_2</item>
+        <item>b_list_2</item>
+    </string-array>
+
+    <array name="icon_list_2">
+        <item>ic_action_cucina</item>
+        <item>ic_action_picture</item>
+    </array>
+
+    <string-array name="list_3">
+        <item>a_list_3</item>
+        <item>b_list_3</item>
+        <item>c_list_3</item>
+    </string-array>
+
+    <array name="icon_list_3">
+        <item>ic_action_labels</item>
+        <item>ic_action_website</item>
+        <item>ic_action_important</item>
+    </array>
+
+    <string-array name="list_4">
+        <item>a_list_4</item>
+        <item>b_list_4</item>
+        <item>c_list_4</item>
+    </string-array>
+
+    <array name="icon_list_4">
+        <item>ic_action_view_as_list</item>
+        <item>ic_action_time</item>
+        <item>ic_action_info</item>
+    </array>
+
+</resources>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/det_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <RelativeLayout
+                android:id="@+id/news_thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip" >
+
+                <ImageView
+                    android:id="@+id/sd_image"
+                    android:layout_width="95dip"
+                    android:layout_height="95dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:contentDescription="@string/nd_desc"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/thumbnail" />
+
+                <TextView
+                    android:id="@+id/sd_name"
+                    style="?android:textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/sd_image"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_image"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_address"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sd_name"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_image"
+                    android:textColor="@color/Gray" />
+
+                <TextView
+                    android:id="@+id/sd_telephone"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sd_address"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_image"
+                    android:textColor="@color/Gray" />
+
+                <TextView
+                    android:id="@+id/sd_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/sd_verify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/sendMail"
+                    style="@style/ButtonHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/sd_telephone"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_home_state_pressed"
+                    android:text="@string/btn_send_mail" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lessons"
+                style="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/sd_lessons_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/sd_lessons_label"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_lessons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_lessons_label"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/max_students"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/sd_max_students_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/sd_max_students_label"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_max_students"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_max_students_label"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/material"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/sd_material_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/sd_material_label"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_material"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_material_label"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/sd_level_test_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/sd_level_test_label"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_level_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_level_test_label"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/registration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/sd_registration_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/sd_registration_label"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_registration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_registration_label"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/accomodation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/sd_accommodation_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/sd_accommodation_label"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_accommodation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_accommodation_label"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/sd_wifi_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/sd_wifi_label"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_wifi_label"
+                    android:gravity="right" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/school_description"
+                style="?android:textAppearanceSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/title_with_bottom_border"
+                android:padding="10dp"
+                android:text="@string/school_description"
+                android:textAllCaps="true"
+                android:textColor="@color/Blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sd_corpo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/statusConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/no_connection"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

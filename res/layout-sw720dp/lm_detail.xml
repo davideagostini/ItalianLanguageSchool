@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/det_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statusConnection"
+        android:layout_margin="16dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <RelativeLayout
+                android:id="@+id/news_thumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip" >
+
+                <ImageView
+                    android:id="@+id/sd_image"
+                    android:layout_width="95dip"
+                    android:layout_height="95dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:contentDescription="@string/nd_desc"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/thumbnail" />
+
+                <TextView
+                    android:id="@+id/sd_name"
+                    style="?android:textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/sd_image"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_image"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sd_address"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sd_name"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/sd_image"
+                    android:textColor="@color/Gray" />
+
+                <Button
+                    android:id="@+id/showSchool"
+                    style="@style/ButtonHome"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/sd_address"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_home_state_pressed"
+                    android:text="@string/btn_scuola" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/detail"
+                style="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_lines"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <TextView
+                    android:id="@+id/lm_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/text" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/school_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/statusConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/no_connection"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="horizontal"
+    android:padding="10dip">
+
+    <RelativeLayout
+        android:id="@+id/lm_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip" >
+
+        <ImageView
+            android:id="@+id/lm_thumb_image"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:contentDescription="@string/nd_desc"
+            android:scaleType="fitCenter"
+            android:src="@drawable/thumbnail" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lm_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/lm_title"
+        style="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lm_indirizzo"
+        android:layout_alignTop="@+id/lm_thumbnail"
+        android:text="@string/lm_title"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/lm_indirizzo"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lm_title"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/lm_thumbnail"
+        android:text="@string/lm_indirizzo"
+        android:textColor="@color/Gray" />
+
+    <TextView
+        android:id="@+id/lm_desc"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lm_indirizzo"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/lm_thumbnail"
+        android:text="@string/lm_desc"
+        android:textColor="#343434" />
+
+</RelativeLayout>

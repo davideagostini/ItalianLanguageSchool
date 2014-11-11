@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_showSearch"
+        style="@style/ButtonHome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/btn_showFormCerca"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/search_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ddd"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/title_search_form"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/search_criteria"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_spinner2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/m_region"
+                android:textColor="#555"
+                android:textSize="14sp" />
+
+            <it.italianlanguageschool.utility.MultiSelectionSpinner
+                android:id="@+id/spinner2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/m_region" />
+
+            <TextView
+                android:id="@+id/txt_spinner1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/b_list_3"
+                android:textColor="#555"
+                android:textSize="14sp" />
+
+            <it.italianlanguageschool.utility.MultiSelectionSpinner
+                android:id="@+id/spinner1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/b_list_3" />
+
+            <TextView
+                android:id="@+id/txt_spinner3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/a_list_3"
+                android:textColor="#555"
+                android:textSize="14sp" />
+
+            <it.italianlanguageschool.utility.MultiSelectionSpinner
+                android:id="@+id/spinner3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/a_list_3" />
+
+            <TextView
+                android:id="@+id/txt_spinner4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/c_list_3"
+                android:textColor="#555"
+                android:textSize="14sp" />
+
+            <it.italianlanguageschool.utility.MultiSelectionSpinner
+                android:id="@+id/spinner4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/c_list_3" />
+
+            <Button
+                android:id="@+id/btn_search_corso"
+                style="@style/ButtonHome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="@string/btn_cerca" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/search_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#444"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/myList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10sp"
+            android:scrollbarStyle="@android:color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

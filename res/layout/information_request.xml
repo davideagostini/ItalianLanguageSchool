@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/send_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gray"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/form_title"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/title_with_bottom_border"
+        android:padding="10dp"
+        android:text="@string/form_title"
+        android:textAllCaps="true"
+        android:textColor="@color/Blue"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/detail_horiz_margin"
+            android:layout_marginRight="@dimen/detail_horiz_margin"
+            android:orientation="vertical"
+            android:paddingBottom="32dp" >
+
+            <EditText
+                android:id="@+id/f_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:hint="@string/form_contact_name"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/f_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:hint="@string/form_contact_surname"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/f_nationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:hint="@string/form_contact_nationality"
+                android:inputType="none" />
+
+            <EditText
+                android:id="@+id/f_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:hint="@string/form_contact_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/f_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:ems="10"
+                android:hint="@string/form_contact_request"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Italian Language Schools</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    
+    
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="nd_desc">descrizione</string>
+    <string name="nd_thumbnail_desc">descrizione thumbnail</string>
+    <string name="no_connection">Connessione Internet assente</string>
+    <string name="verifica_connessione">Verifica la tua connessione e riprova.</string>
+    
+    <string name="image">image</string>
+    
+    <string name="title1">Scuole d\'italiano per stranieri</string>
+    <string name="title2">Corsi speciali</string>
+    <string name="title3">Ricerca per tipologia</string>
+    <string name="title4">Altro</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
+    <string name="a_list_1">Scuole d\'italiano</string>
+    <string name="b_list_1">Mappa delle scuole</string>
+    <string name="c_list_1">Ricerca</string>
+    <string name="a_list_2">Corsi di cucina</string>
+    <string name="b_list_2">Corsi d\'arte</string>
+    <string name="a_list_3">Altri corsi extra</string>
+    <string name="b_list_3">Caratteristiche</string>
+    <string name="c_list_3">Accreditamenti</string>
+    <string name="a_list_4">News</string>
+    <string name="b_list_4">Last minutes</string>
+    <string name="c_list_4">Credits</string>
+      
+    <string name="form_contact_name">Nome</string>
+    <string name="form_contact_surname">Cognome</string>
+    <string name="form_contact_nationality">Nazionalità</string>
+    <string name="form_contact_email">Email</string>
+    <string name="form_contact_request">Richiesta</string>
+    <string name="form_btn_send">Invia</string>
+    <string name="form_title">Invia richiesta informazioni</string>
+    
+    <string name="school_title">Titolo scuola</string>
+    <string name="school_desc">Descrizione scuola</string>
+    <string name="school_indirizzo">Indirizzo scuola</string>
+    <string name="news_title">Titolo news</string>
+    <string name="news_desc">Descrizione news</string>
+    <string name="news_date">Data news</string>
+    <string name="loadMore">Carica altro</string>
+    <string name="lm_title">Last minute title</string>
+    <string name="lm_desc">last minute description</string>
+    <string name="lm_indirizzo">last minute address</string>
+    <string name="sd_name">nome scuola</string>
+    <string name="sd_address">indirizzo</string>
+    <string name="sd_telephone">telefono</string>
+    <string name="sd_fax">fax</string>
+    
+    <string name="sd_lessons_label">Durata lezione:</string>
+    <string name="sd_max_students_label">Massimo numero studenti per classe:</string>
+    <string name="sd_material_label">Libri e/o materiale didattico:</string>
+    <string name="sd_level_test_label">Test livello ingresso:</string>
+    <string name="sd_registration_label">Tassa di iscrizione:</string>
+    <string name="sd_accommodation_label">Servizio ricerca e prenotazione alloggio:</string>
+    <string name="sd_wifi_label">Wifi:</string>
+    <string name="school_description">Descrizione</string>
+    <string name="sd_info">Informazioni</string>
+    
+    <string name="text">text text</string>
+    <string name="btn_scuola">La scuola</string>
+    <string name="btn_send_mail">Contatta</string>
+    
+    <string name="btn_showFormCerca">Mostra form di ricerca</string>
+    <string name="btn_cerca">Cerca</string>   
+    <string name="m_region">Regione</string>
+    <string name="search_criteria">Inserisci le chiavi di ricerca e trova la scuola di lingua e cultura italiana più adatta a te</string>
+    <string name="nothing_school">Nessuna scuola trovata</string>
+    <string name="result_search_school">Scuole trovate</string>
+    
+    <string name="title_start">Impara l\'italiano in Italia, dove altrimenti?</string>
+    <string name="desc_start">Il miglior modo per imparare l\'italiano è studiare in Italia. Dove altrimenti? In Italia hai la possibilità di studiare la lingua e scoprire uno dei posti più belli al mondo. L\'Italia è unica perché è varia: puoi studiare in una città d\'arte, o in una città di mare o di montagna, in una grande città o in piccolo e accogliente paese. Puoi decidere di frequentare corsi in città dichiarate Patrimonio dell\'Umanità dall\'Unesco, in borghi medievali o in città culturalmente vive. L\'Italia non è solo un paese pieno di storia. Il Bel Paese è anche fatto di culture e civiltà diverse, di cibi e colori, di profumi e panorami mozzafiato.\n\nCon questa app ti invitiamo a scoprire e scegliere le scuole di lingua italiana presenti nel nostro territorio dandoti la possibilità di scegliere ciò che è più utile al tuo modo d\'essere, di viaggiare e di studiare. Puoi andare a Roma, Firenze, Milano o nella bellissima Sicilia, nella misteriosa Sardegna o nelle altre splendide regioni italiane.</string>
+    
+    <string name="credits">myitalianlanguageschools.com è un portale web che segnala e presenta scuole di lingua e cultura italiana in Italia per stranieri.\n\nI testi di presentazione e le informazioni sulle scuole pubblicate su myitalianlanguageschools.com e in questa app sono stati forniti direttamente dalle scuole. Noi non siamo in alcun modo responsabili per quanto comunicato in maniera mendace e/o non corretta.\n\nInoltre non siamo in alcun modo responsabili per la qualità dei corsi che gli utenti frequenteranno nelle scuole segnalate su myitalianlanguageschools.com e in questa app.\n\nNoi non siamo una scuola e non eroghiamo nessun corso di italiano a stranieri.\n\nAllo stesso tempo non siamo un\'agenzia e non prenotiamo corsi: le richieste vengono inviate direttamente alle scuole; sarà loro cura rispondere se interessati.\n\nQuesta applicazione è stata sviluppata da Davide Agostini e Francesco Grasso.</string>
+    
+    <string name="send_all_fields">Attenzione: tutti i campi sono obbligatori</string>
+    <string name="send_mail_valid">Email non valida</string>
+    
+    <string name="send_ok">Richiesta registrata. Grazie, verrai contattato al più presto direttamente dalla scuola.</string>
+    <string name="send_no_ok">Si è verificato un errore nella registrazione della richiesta.</string>
+        
+</resources>
